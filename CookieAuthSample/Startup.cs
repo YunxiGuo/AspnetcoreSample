@@ -24,6 +24,12 @@ namespace CookieAuthSample
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddAuthentication("MyCookieAuthenticationScheme")
+                .AddCookie("MyCookieAuthenticationScheme", option =>
+                {
+                    option.AccessDeniedPath = "";
+                    option.LoginPath = "";
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
