@@ -27,8 +27,8 @@ namespace CookieAuthSample
             services.AddAuthentication("MyCookieAuthenticationScheme")
                 .AddCookie("MyCookieAuthenticationScheme", option =>
                 {
-                    option.AccessDeniedPath = "";
-                    option.LoginPath = "";
+                    //option.AccessDeniedPath = "";
+                    //option.LoginPath = "";
                 });
         }
 
@@ -39,6 +39,8 @@ namespace CookieAuthSample
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseAuthentication();
 
             app.UseMvc();
         }
