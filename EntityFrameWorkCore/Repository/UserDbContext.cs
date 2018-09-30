@@ -1,7 +1,7 @@
-﻿using CookieAuthMvcSample.Enities;
+﻿using EntityFrameWorkCore.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace CookieAuthMvcSample.Data
+namespace EntityFrameWorkCore.Repository
 {
     public class UserDbContext : DbContext
     {

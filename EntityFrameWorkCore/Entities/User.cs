@@ -1,6 +1,6 @@
-﻿using CookieAuthMvcSample.Enities.Enums;
+﻿using EntityFrameWorkCore.Enums;
 
-namespace CookieAuthMvcSample.Enities
+namespace EntityFrameWorkCore.Entities
 {
     public class User : EntityBase
     {

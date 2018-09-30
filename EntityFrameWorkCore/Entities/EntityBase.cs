@@ -1,4 +1,4 @@
-﻿namespace CookieAuthMvcSample.Enities
+﻿namespace EntityFrameWorkCore.Entities
 {
     public class EntityBase
     {
