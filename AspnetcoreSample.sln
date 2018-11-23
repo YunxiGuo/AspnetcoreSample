@@ -7,7 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookieAuthSample", "CookieA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookieAuthMvcSample", "CookieAuthMvcSample\CookieAuthMvcSample.csproj", "{C9C18DF0-DFC8-43C7-8CC0-6ED9CECBDFFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameWorkCore", "EntityFrameWorkCore\EntityFrameWorkCore.csproj", "{F29CB5D9-0625-47E0-943A-E894F96E2758}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameWorkCore", "EntityFrameWorkCore\EntityFrameWorkCore.csproj", "{F29CB5D9-0625-47E0-943A-E894F96E2758}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsulSample", "ConsulSample", "{CBAF911F-5752-4439-8144-B95694AF2788}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi1", "WebApi1\WebApi1.csproj", "{033C0CE6-CB28-47EB-B9F7-0341A330D752}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi2", "WebApi2\WebApi2.csproj", "{1C34FF94-65FA-4A8D-AF71-5628D9BA2193}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsulApplication", "ConsulApplication\ConsulApplication.csproj", "{561B50D3-6A06-4A86-AEC0-D69D573E088C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsulClient", "ConsulClient\ConsulClient.csproj", "{8E3AEBDB-FA2F-4562-A58A-10FDBAAB6BB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +37,31 @@ Global
 		{F29CB5D9-0625-47E0-943A-E894F96E2758}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F29CB5D9-0625-47E0-943A-E894F96E2758}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F29CB5D9-0625-47E0-943A-E894F96E2758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{033C0CE6-CB28-47EB-B9F7-0341A330D752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033C0CE6-CB28-47EB-B9F7-0341A330D752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033C0CE6-CB28-47EB-B9F7-0341A330D752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033C0CE6-CB28-47EB-B9F7-0341A330D752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C34FF94-65FA-4A8D-AF71-5628D9BA2193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C34FF94-65FA-4A8D-AF71-5628D9BA2193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C34FF94-65FA-4A8D-AF71-5628D9BA2193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C34FF94-65FA-4A8D-AF71-5628D9BA2193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{561B50D3-6A06-4A86-AEC0-D69D573E088C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{561B50D3-6A06-4A86-AEC0-D69D573E088C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{561B50D3-6A06-4A86-AEC0-D69D573E088C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{561B50D3-6A06-4A86-AEC0-D69D573E088C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E3AEBDB-FA2F-4562-A58A-10FDBAAB6BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E3AEBDB-FA2F-4562-A58A-10FDBAAB6BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3AEBDB-FA2F-4562-A58A-10FDBAAB6BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E3AEBDB-FA2F-4562-A58A-10FDBAAB6BB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{033C0CE6-CB28-47EB-B9F7-0341A330D752} = {CBAF911F-5752-4439-8144-B95694AF2788}
+		{1C34FF94-65FA-4A8D-AF71-5628D9BA2193} = {CBAF911F-5752-4439-8144-B95694AF2788}
+		{561B50D3-6A06-4A86-AEC0-D69D573E088C} = {CBAF911F-5752-4439-8144-B95694AF2788}
+		{8E3AEBDB-FA2F-4562-A58A-10FDBAAB6BB7} = {CBAF911F-5752-4439-8144-B95694AF2788}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E22B8A9-D2CC-43DF-BC91-C23F48C60A90}
