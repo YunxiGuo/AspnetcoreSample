@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RabbitMQNewTask": {
+      "commandName": "Project",
+      "commandLineArgs": "This is the new task..."
+    }
+  }
+}

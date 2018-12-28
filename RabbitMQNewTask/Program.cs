@@ -15,6 +15,7 @@ namespace RabbitMQNewTask
                 //创建信道
                 using (var channel = connection.CreateModel())
                 {
+                    //声明一个队列
                     channel.QueueDeclare(
                         queue: "taskwork", //队列名
                         durable: true,  //是否持久化,防止队列和消息丢失
@@ -23,8 +24,18 @@ namespace RabbitMQNewTask
                         arguments: null);
                     var message = GetMessage(args);
                     var body = Encoding.UTF8.GetBytes(message);
-                    //var 
+                    var properties = channel.CreateBasicProperties();
+
+                    channel.BasicPublish(
+                        exchange:"",
+                        routingKey: "taskwork",
+                        basicProperties:properties,
+                        body:body);
+
+                    Console.WriteLine($"[x] sent {message}");
                 }
+                Console.WriteLine(" Press [enter] to exit.");
+                Console.ReadLine();
             }
         }
 
