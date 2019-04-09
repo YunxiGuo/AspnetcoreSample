@@ -19,6 +19,11 @@ namespace WebApi1.Controllers
         }
 
         // GET api/values/5
+        /// <summary>
+        /// 根据id获取对象
+        /// </summary>
+        /// <param name="id">唯一索引</param>
+        /// <returns>对象</returns>
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {

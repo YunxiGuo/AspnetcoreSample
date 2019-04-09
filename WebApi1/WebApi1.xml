@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi1</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi1.Controllers.SmsController.Get(System.Int32)">
+            <summary>
+            根据id获取对象
+            </summary>
+            <param name="id">唯一索引</param>
+            <returns>对象</returns>
+        </member>
+    </members>
+</doc>
